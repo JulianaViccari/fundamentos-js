@@ -27,3 +27,4 @@ let resultadoRuim = "Cuidado, procure um médico!!!"
 
 const resultado = `${nome} com um peso de: ${peso} klgramas e altura de: ${altura} centímetros seu imc foi: ${imc} ${imc <= ideal && imc <= sobrePeso && imc >= magreza ? resultadoOk : resultadoRuim}`;
 console.log(resultado)
+
